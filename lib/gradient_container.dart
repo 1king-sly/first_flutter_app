@@ -19,7 +19,7 @@ class GradientContainer extends StatelessWidget {
           Color.fromRGBO(68, 138, 255, 1),
         ], begin:startAlignment, end: endAlignment),
       ),
-      child: const Center(child: StyledText()),
+      child: const Center(child: StyledText('Hi, Jazz')),
     );
   }
 }
